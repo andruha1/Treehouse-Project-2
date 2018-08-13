@@ -1,0 +1,278 @@
+/* --------------- Base Styles --------------- */
+html {
+  background-color: #f8fafc;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(74, 74, 74);
+}
+
+h1,
+h2,
+h3,
+li {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* --------------- Title/Nav/Intro Styles --------------- */
+
+nav {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(74, 74, 74);
+  padding-left: 4px;
+  display: block;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  vertical-align: middle;
+  background-color: white;
+  margin: 5px 0;
+}
+
+nav a {
+    border: 2px solid lightsteelblue;
+}
+
+nav a:hover {
+  background-color: lightsteelblue;
+}
+
+.profile-image {
+  margin-top: 15px;
+  width: 70%;
+}
+
+.intro {
+  font-size: 1.2em;
+  text-align: center;
+  padding-bottom: 15px;
+  width: 85%;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+img {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+/* --------------- Main Content Styles --------------- */
+
+main {
+  background-color: white;
+}
+.content {
+  display: block;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+  vertical-align: top;
+}
+
+.content:hover {
+  color: steelblue;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.content-p {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+article p {
+  text-align: center;
+}
+/* --------------- Contact and Footer Section Styles --------------- */
+
+.contact,
+.phone,
+.email {
+  text-align: center;
+}
+
+span {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+hr {
+  margin-top: 60px;
+}
+
+.footer-title {
+  float: left;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.footer-button {
+  float: right;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.footer-nav {
+  display: none;
+}
+/* --------------- Clearfix --------------- */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* --------------- Media Queries 768px --------------- */
+
+@media (min-width: 768px) {
+
+/* --------------- Title/Nav/Intro Styles --------------- */
+
+nav li {
+  display: inline-block;
+  width: 20%;
+  font-size: 0.8em;
+}
+
+.intro-box {
+  padding-top: 40px;
+  width: 90%;
+  margin: auto;
+}
+
+.profile-image {
+  float: right;
+  width: 40%;
+}
+
+.intro {
+  float: left;
+  width: 58%;
+  text-align: left;
+}
+/* --------------- Main Content Styles --------------- */
+
+.content {
+  display: inline-block;
+  width: 47%;
+}
+
+.wrapper {
+  width: 95%;
+  margin: auto;
+}
+
+/* --------------- Skills Styles --------------- */
+
+.skills-wrapper {
+  width: 95%;
+  margin: auto;
+}
+
+.goals {
+  float: left;
+  width: 48%;
+}
+
+.desk {
+  float: right;
+  width: 50%;
+}
+
+/* --------------- Contact/Footer Styles --------------- */
+
+.contact {
+  width: 65%;
+  margin: auto;
+}
+
+.footer-button {
+  display: none;
+}
+
+.footer-nav {
+  display: inline-block;
+  float: right;
+  width: 55%;
+}
+
+.footer-nav li {
+  width: 22%;
+}
+
+.footer-title {
+  vertical-align: middle;
+}
+
+}
+
+/* --------------- Media Queries 1024px --------------- */
+
+@media (min-width: 1024px) {
+
+/* --------------- Title/Nav/Intro Styles --------------- */
+
+.top-header {
+  width: 95%;
+  margin: auto;
+}
+.main-title {
+  float:left;
+}
+
+nav {
+  float: right;
+  width: 50%;
+}
+/* --------------- Main Content Styles --------------- */
+
+.content {
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+}
+
+/* --------------- Skills Styles --------------- */
+
+.skills-wrapper {
+  width: 70%;
+}
+
+/* --------------- Contact/Footer Styles --------------- */
+
+}
